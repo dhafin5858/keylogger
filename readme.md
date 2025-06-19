@@ -44,7 +44,8 @@ Install requirements
 simply double click the `keylogger_service.pyw`
 
   
-🔸 On Kali Linux ( all keylogger transfered to (host)
+🔸 On Kali Linux all keylogger transfered to (host)
+
 SSH Server must be active:
 
 `sudo apt install openssh-server`
