@@ -15,16 +15,11 @@ A **Python-based keylogger** developed for **educational and research** purposes
 
 ## ⚙️ Prerequisites
 
-### 🔸 On Windows
+### 🔸 On Windows setup (victim)
 
 - [Python 3.x](https://www.python.org/downloads/)
-- Required libraries (install with `pip`):
-  ```bash
-   pynput paramiko
-🔸 On Kali Linux
-SSH Server must be active:
 
-`sudo apt install openssh-server`
+
 
 🚀 Setup Instructions
 Clone the repository
@@ -32,8 +27,6 @@ Clone the repository
 `git clone https://github.com/dhafin5858/keylogger.git`
 
 `cd keylogger`
-
-Configure connection settings
 
 Edit keylogger_service.pyw and update these variables:
 
@@ -50,7 +43,14 @@ Install requirements
 🟢 Starting the keylogger
 simply double click the `keylogger_service.pyw`
 
-//////////////////////////
+  
+🔸 On Kali Linux ( all keylogger transfered to (host)
+SSH Server must be active:
+
+`sudo apt install openssh-server`
+
+
+
 
 🛑 Stopping the Keylogger
 
@@ -66,8 +66,6 @@ Every 10 seconds, the file is securely transferred to the Kali Linux host using 
 🕶 Background Execution
 When run with pythonw, the script executes silently (without opening a console window), making it ideal for automated testing or stealthy demonstrations.
 
-📄 License
-Licensed under the MIT License. See the LICENSE file for more details.
 
 ⚠️ Disclaimer
 This project is intended for ethical and educational use only.
