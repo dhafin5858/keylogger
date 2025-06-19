@@ -47,6 +47,11 @@ Install requirements
 
 `pip install -r requirements.txt`
 
+🟢 Starting the keylogger
+simply double click the `keylogger_service.pyw`
+
+//////////////////////////
+
 🛑 Stopping the Keylogger
 
 To terminate the keylogger, open Task Manager and manually end the python.exe process.
